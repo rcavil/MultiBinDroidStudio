@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/relative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    >
+
+    <Button
+        android:id="@+id/btnScan"
+        android:text="@string/button_scan"
+        android:onClick="launchScanActivity"
+
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        />
+
+   <Button
+        android:id="@+id/btnDownload"
+        android:text="@string/button_download"
+        android:onClick="launchDownloadActivity"
+
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btnDebug"
+        android:text="@string/button_debug"
+
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        />
+
+</LinearLayout>
